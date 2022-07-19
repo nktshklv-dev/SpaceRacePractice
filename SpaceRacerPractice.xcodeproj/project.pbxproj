@@ -15,7 +15,43 @@
 		11B9AC7728856A8E003543EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B9AC7528856A8E003543EA /* Main.storyboard */; };
 		11B9AC7928856A8F003543EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B9AC7828856A8F003543EA /* Assets.xcassets */; };
 		11B9AC7C28856A8F003543EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B9AC7A28856A8F003543EA /* LaunchScreen.storyboard */; };
+		11B9AC8428856AE0003543EA /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11B9AC8228856AE0003543EA /* explosion.sks */; };
+		11B9AC8528856AE0003543EA /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11B9AC8328856AE0003543EA /* starfield.sks */; };
+		11B9ACAD288699F5003543EA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9ACAC288699F5003543EA /* SafariWebExtensionHandler.swift */; };
+		11B9ACB0288699F5003543EA /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 11B9ACAF288699F5003543EA /* _locales */; };
+		11B9ACB2288699F5003543EA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 11B9ACB1288699F5003543EA /* images */; };
+		11B9ACB4288699F5003543EA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 11B9ACB3288699F5003543EA /* manifest.json */; };
+		11B9ACB6288699F5003543EA /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 11B9ACB5288699F5003543EA /* background.js */; };
+		11B9ACB8288699F5003543EA /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 11B9ACB7288699F5003543EA /* content.js */; };
+		11B9ACBA288699F5003543EA /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 11B9ACB9288699F5003543EA /* popup.html */; };
+		11B9ACBC288699F5003543EA /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 11B9ACBB288699F5003543EA /* popup.css */; };
+		11B9ACBE288699F5003543EA /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 11B9ACBD288699F5003543EA /* popup.js */; };
+		11B9ACC2288699F5003543EA /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11B9ACAA288699F5003543EA /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B9ACC0288699F5003543EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B9AC6028856A8E003543EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B9ACA9288699F5003543EA;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11B9ACC3288699F5003543EA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				11B9ACC2288699F5003543EA /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		11B9AC6828856A8E003543EA /* SpaceRacerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceRacerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,10 +63,30 @@
 		11B9AC7628856A8E003543EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11B9AC7828856A8F003543EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B9AC7B28856A8F003543EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11B9AC8228856AE0003543EA /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		11B9AC8328856AE0003543EA /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
+		11B9ACAA288699F5003543EA /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B9ACAC288699F5003543EA /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		11B9ACAF288699F5003543EA /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		11B9ACB1288699F5003543EA /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		11B9ACB3288699F5003543EA /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		11B9ACB5288699F5003543EA /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		11B9ACB7288699F5003543EA /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		11B9ACB9288699F5003543EA /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		11B9ACBB288699F5003543EA /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		11B9ACBD288699F5003543EA /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		11B9ACBF288699F5003543EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		11B9AC6528856A8E003543EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B9ACA7288699F5003543EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				11B9AC6A28856A8E003543EA /* SpaceRacerPractice */,
+				11B9ACAB288699F5003543EA /* Extension */,
 				11B9AC6928856A8E003543EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				11B9AC6828856A8E003543EA /* SpaceRacerPractice.app */,
+				11B9ACAA288699F5003543EA /* Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,8 +125,35 @@
 				11B9AC7528856A8E003543EA /* Main.storyboard */,
 				11B9AC7828856A8F003543EA /* Assets.xcassets */,
 				11B9AC7A28856A8F003543EA /* LaunchScreen.storyboard */,
+				11B9AC8228856AE0003543EA /* explosion.sks */,
+				11B9AC8328856AE0003543EA /* starfield.sks */,
 			);
 			path = SpaceRacerPractice;
+			sourceTree = "<group>";
+		};
+		11B9ACAB288699F5003543EA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				11B9ACAC288699F5003543EA /* SafariWebExtensionHandler.swift */,
+				11B9ACBF288699F5003543EA /* Info.plist */,
+				11B9ACAE288699F5003543EA /* Resources */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		11B9ACAE288699F5003543EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11B9ACAF288699F5003543EA /* _locales */,
+				11B9ACB1288699F5003543EA /* images */,
+				11B9ACB3288699F5003543EA /* manifest.json */,
+				11B9ACB5288699F5003543EA /* background.js */,
+				11B9ACB7288699F5003543EA /* content.js */,
+				11B9ACB9288699F5003543EA /* popup.html */,
+				11B9ACBB288699F5003543EA /* popup.css */,
+				11B9ACBD288699F5003543EA /* popup.js */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,15 +166,34 @@
 				11B9AC6428856A8E003543EA /* Sources */,
 				11B9AC6528856A8E003543EA /* Frameworks */,
 				11B9AC6628856A8E003543EA /* Resources */,
+				11B9ACC3288699F5003543EA /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				11B9ACC1288699F5003543EA /* PBXTargetDependency */,
 			);
 			name = SpaceRacerPractice;
 			productName = SpaceRacerPractice;
 			productReference = 11B9AC6828856A8E003543EA /* SpaceRacerPractice.app */;
 			productType = "com.apple.product-type.application";
+		};
+		11B9ACA9288699F5003543EA /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B9ACC6288699F5003543EA /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				11B9ACA6288699F5003543EA /* Sources */,
+				11B9ACA7288699F5003543EA /* Frameworks */,
+				11B9ACA8288699F5003543EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = 11B9ACAA288699F5003543EA /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -102,6 +206,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					11B9AC6728856A8E003543EA = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					11B9ACA9288699F5003543EA = {
 						CreatedOnToolsVersion = 13.2;
 					};
 				};
@@ -120,6 +227,7 @@
 			projectRoot = "";
 			targets = (
 				11B9AC6728856A8E003543EA /* SpaceRacerPractice */,
+				11B9ACA9288699F5003543EA /* Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -132,8 +240,25 @@
 				11B9AC7728856A8E003543EA /* Main.storyboard in Resources */,
 				11B9AC6E28856A8E003543EA /* GameScene.sks in Resources */,
 				11B9AC7928856A8F003543EA /* Assets.xcassets in Resources */,
+				11B9AC8428856AE0003543EA /* explosion.sks in Resources */,
 				11B9AC7C28856A8F003543EA /* LaunchScreen.storyboard in Resources */,
 				11B9AC7028856A8E003543EA /* Actions.sks in Resources */,
+				11B9AC8528856AE0003543EA /* starfield.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B9ACA8288699F5003543EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B9ACB6288699F5003543EA /* background.js in Resources */,
+				11B9ACBC288699F5003543EA /* popup.css in Resources */,
+				11B9ACBA288699F5003543EA /* popup.html in Resources */,
+				11B9ACB2288699F5003543EA /* images in Resources */,
+				11B9ACB4288699F5003543EA /* manifest.json in Resources */,
+				11B9ACB0288699F5003543EA /* _locales in Resources */,
+				11B9ACB8288699F5003543EA /* content.js in Resources */,
+				11B9ACBE288699F5003543EA /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +275,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		11B9ACA6288699F5003543EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B9ACAD288699F5003543EA /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B9ACC1288699F5003543EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B9ACA9288699F5003543EA /* Extension */;
+			targetProxy = 11B9ACC0288699F5003543EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		11B9AC7528856A8E003543EA /* Main.storyboard */ = {
@@ -291,6 +432,7 @@
 		11B9AC8028856A8F003543EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,7 +443,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,13 +454,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		11B9AC8128856A8F003543EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -329,7 +472,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,6 +481,66 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nktshklv.SpaceRacerPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		11B9ACC4288699F5003543EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KS74W7M7ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Extension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nktshklv.SpaceRacerPractice.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B9ACC5288699F5003543EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KS74W7M7ZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Extension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nktshklv.SpaceRacerPractice.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -361,6 +564,15 @@
 			buildConfigurations = (
 				11B9AC8028856A8F003543EA /* Debug */,
 				11B9AC8128856A8F003543EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B9ACC6288699F5003543EA /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B9ACC4288699F5003543EA /* Debug */,
+				11B9ACC5288699F5003543EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
